@@ -1,0 +1,13 @@
+version: '2'
+services:
+    db:
+        image: postgres
+        volumes: /dbdata
+        environment: 
+    web:
+        build: .
+        ports:
+        - "6767:6767"
+        volumes: .:/source
+        depends_on: 
+        - db
