@@ -5,3 +5,5 @@ authors = ["Adrian Brink <adrian@brink-holdings.com>"]
 
 [dependencies]
 postgres = "0.13.3"
+iron = "0.4.0"
+nickel = "0.9.0"
