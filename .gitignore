@@ -1,6 +1,7 @@
 ### Custom ###
 target
 docker
+.env
 
 # Created by https://www.gitignore.io/api/git,rust,visualstudiocode,linux,osx
 
